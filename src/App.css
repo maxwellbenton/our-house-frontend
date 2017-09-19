@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Photo-card {
+  width: 50vw;
+}
+.Photo-container {
+  width: 80%;
+}
+.Image {
+  height: 100%;
+}
+.Overlay {
+  position: fixed;
+  margin: 0 10vw;
+  top: 5vh;
+  z-index: 1000;
+  height: 90vh;
+  width: 80vw;
+  background-color: #AAA;
+  overflow: hidden;
+  
+}
+
+.Close-button {
+  position: absolute;
+  top:0;
+  right:0;
+}
+
