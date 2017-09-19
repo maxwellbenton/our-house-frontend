@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000'
+const baseUrl = 'https://our-house-backend.herokuapp.com'
 
 export class AuthAdapter {
   static login(loginParams){
